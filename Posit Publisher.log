@@ -1,0 +1,491 @@
+2026-04-16 20:54:12.783 [info] Registering connect-content file system provider
+2026-04-16 20:54:12.783 [info] Declared authentication provider "posit-connect"
+2026-04-16 20:54:13.644 [info] [agent] Client version version=1.36.0
+2026-04-16 20:54:13.644 [info] [agent] Development mode mode=prod
+2026-04-16 20:54:13.644 [info] [agent] Development build DevelopmentBuild=false
+2026-04-16 20:54:13.644 [info] [agent] Starting PublishUICmd.Run
+2026-04-16 20:54:13.644 [info] [agent] created event server
+2026-04-16 20:54:13.644 [info] [agent] created event stream
+2026-04-16 20:54:13.644 [info] [agent] created SSE logger
+2026-04-16 20:54:13.645 [info] [agent] created UI service
+2026-04-16 20:54:13.645 [info] [agent] UI server running url=http://127.0.0.1:53340/
+2026-04-16 20:55:18.317 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:18.348 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:18.348 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:18.348 [info] [agent] Getting Python version python=/Users/andrew/.local/share/uv/python/cpython-3.10.16-macos-aarch64-none/bin/python
+2026-04-16 20:55:18.350 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:18.366 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:18.366 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:18.366 [info] [agent] Getting Python version python=/Users/andrew/.local/share/uv/python/cpython-3.10.16-macos-aarch64-none/bin/python
+2026-04-16 20:55:18.390 [info] [agent] Detected Python version=3.10.16
+2026-04-16 20:55:18.390 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:55:18.391 [info] [agent] Detected Python version=3.10.16
+2026-04-16 20:55:18.391 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:55:18.841 [error] [agent] Error running command command=quarto error=exit status 1
+2026-04-16 20:55:18.841 [info] [agent] [91mERROR: database is locked
+2026-04-16 20:55:18.841 [info] [agent] Stack trace:
+2026-04-16 20:55:18.841 [info] [agent] at async Object.openKv (ext:deno_kv/01_db.ts:10:15)
+2026-04-16 20:55:18.841 [info] [agent] at async ProjectCacheImpl.init (file:///Applications/quarto/bin/quarto.js:87112:22)
+2026-04-16 20:55:18.841 [info] [agent] at async createProjectCache (file:///Applications/quarto/bin/quarto.js:87246:7)
+2026-04-16 20:55:18.841 [info] [agent] at async projectContext (file:///Applications/quarto/bin/quarto.js:91960:22)
+2026-04-16 20:55:18.841 [info] [agent] at async inspectDocumentConfig (file:///Applications/quarto/bin/quarto.js:163887:19)
+2026-04-16 20:55:18.841 [info] [agent] at async inspectConfig (file:///Applications/quarto/bin/quarto.js:163828:12)
+2026-04-16 20:55:18.841 [info] [agent] at async _Command.actionHandler (file:///Applications/quarto/bin/quarto.js:164003:21)
+2026-04-16 20:55:18.841 [info] [agent] at async _Command.execute (file:///Applications/quarto/bin/quarto.js:102022:7)
+2026-04-16 20:55:18.841 [info] [agent] at async _Command.parseCommand (file:///Applications/quarto/bin/quarto.js:101899:14)
+2026-04-16 20:55:18.841 [info] [agent] at async quarto4 (file:///Applications/quarto/bin/quarto.js:187547:5)
+2026-04-16 20:55:18.841 [info] [agent] at async file:///Applications/quarto/bin/quarto.js:187575:5
+2026-04-16 20:55:18.841 [info] [agent] at async file:///Applications/quarto/bin/quarto.js:187430:14
+2026-04-16 20:55:18.841 [info] [agent] at async mainRunner (file:///Applications/quarto/bin/quarto.js:187432:5)
+2026-04-16 20:55:18.841 [info] [agent] at async file:///Applications/quarto/bin/quarto.js:187568:3[39m
+2026-04-16 20:55:18.841 [warning] [agent] quarto inspect failed file=/Users/andrew/Desktop/publisher-test/about.qmd error=quarto inspect failed: exit status 1
+2026-04-16 20:55:18.841 [warning] [agent] attempting to identify Quarto project by files context file=/Users/andrew/Desktop/publisher-test/about.qmd
+2026-04-16 20:55:18.841 [info] [agent] Generated Quarto configuration without Quarto binary inspection file=/Users/andrew/Desktop/publisher-test/about.qmd
+2026-04-16 20:55:18.842 [info] [agent] Possible deployment type Entrypoint=about.qmd Type=quarto-static
+2026-04-16 20:55:18.842 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:18.857 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:18.857 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:18.857 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:18.876 [info] [agent] Possible deployment type Entrypoint=about.qmd Type=quarto-static
+2026-04-16 20:55:18.876 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:18.889 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:18.890 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:18.890 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:19.061 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:55:19.061 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:55:19.062 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=about.qmd elapsed_ms=712 status=200 req_size=2 resp_size=510 client_addr=127.0.0.1:53396
+2026-04-16 20:55:19.066 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:55:19.066 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:55:19.067 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=about.qmd elapsed_ms=752 status=200 req_size=2 resp_size=872 client_addr=127.0.0.1:53395
+2026-04-16 20:55:21.890 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:21.892 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:21.912 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:21.926 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:21.927 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:21.927 [error] [agent] entrypoint not found
+2026-04-16 20:55:21.927 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=about.qmd elapsed_ms=38 status=404 req_size=2 resp_size=21 client_addr=127.0.0.1:53397
+2026-04-16 20:55:21.928 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:21.928 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:21.928 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:55:21.930 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:21.930 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:21.930 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:55:22.335 [info] [agent] Possible deployment type Entrypoint=slides.qmd Type=quarto-static
+2026-04-16 20:55:22.335 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:22.336 [info] [agent] Possible deployment type Entrypoint=slides.qmd Type=quarto-static
+2026-04-16 20:55:22.336 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:22.350 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:22.350 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:22.350 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:22.352 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:22.352 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:22.352 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:22.537 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:55:22.537 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:55:22.537 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:55:22.538 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:55:22.538 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=slides.qmd elapsed_ms=650 status=200 req_size=2 resp_size=876 client_addr=127.0.0.1:53398
+2026-04-16 20:55:22.538 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=slides.qmd elapsed_ms=631 status=200 req_size=2 resp_size=876 client_addr=127.0.0.1:53399
+2026-04-16 20:55:23.885 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:23.887 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:23.900 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:23.900 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:23.900 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:55:23.903 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:23.903 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:23.903 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:55:24.323 [info] [agent] Possible deployment type Entrypoint=_quarto.yml Type=quarto-static
+2026-04-16 20:55:24.323 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:24.324 [info] [agent] Possible deployment type Entrypoint=_quarto.yml Type=quarto-static
+2026-04-16 20:55:24.324 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:24.338 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:24.339 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:24.339 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:24.340 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:24.341 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:24.341 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:24.531 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:55:24.531 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:55:24.532 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=_quarto.yml elapsed_ms=644 status=200 req_size=2 resp_size=881 client_addr=127.0.0.1:53402
+2026-04-16 20:55:24.533 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:55:24.533 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:55:24.533 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=_quarto.yml elapsed_ms=649 status=200 req_size=2 resp_size=881 client_addr=127.0.0.1:53401
+2026-04-16 20:55:57.269 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:57.290 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:57.290 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:57.290 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:55:57.911 [info] [agent] Possible deployment type Entrypoint=_quarto.yml Type=quarto-static
+2026-04-16 20:55:57.911 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:57.928 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:57.928 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:57.928 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:58.126 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:55:58.126 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:55:58.126 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=_quarto.yml elapsed_ms=856 status=200 req_size=2 resp_size=889 client_addr=127.0.0.1:53416
+2026-04-16 20:55:59.126 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:59.135 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:59.143 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:59.143 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:59.143 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:55:59.151 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:59.151 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:59.151 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:55:59.558 [info] [agent] Possible deployment type Entrypoint=index.qmd Type=quarto-static
+2026-04-16 20:55:59.558 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:59.564 [info] [agent] Possible deployment type Entrypoint=index.qmd Type=quarto-static
+2026-04-16 20:55:59.564 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:59.573 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:59.573 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:59.573 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:59.579 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:55:59.586 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:55:59.586 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:55:59.761 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:55:59.761 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:55:59.761 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=index.qmd elapsed_ms=635 status=200 req_size=2 resp_size=863 client_addr=127.0.0.1:53420
+2026-04-16 20:55:59.763 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:55:59.763 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:55:59.763 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=index.qmd elapsed_ms=627 status=200 req_size=2 resp_size=863 client_addr=127.0.0.1:53421
+2026-04-16 20:56:30.082 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:30.101 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:56:30.101 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:56:30.101 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:56:30.707 [info] [agent] Possible deployment type Entrypoint=index.qmd Type=quarto-static
+2026-04-16 20:56:30.707 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:30.723 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:56:30.723 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:56:30.723 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:30.928 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:56:30.928 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:56:30.928 [warning] [agent] Error retrieving required R version error=no R version requirement found
+2026-04-16 20:56:30.928 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=index.qmd elapsed_ms=845 status=200 req_size=2 resp_size=867 client_addr=127.0.0.1:53447
+2026-04-16 20:56:31.659 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:31.662 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:31.675 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:56:31.675 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:56:31.675 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:56:31.677 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:56:31.677 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:56:31.677 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:56:32.086 [info] [agent] Possible deployment type Entrypoint=slides.qmd Type=quarto-static
+2026-04-16 20:56:32.086 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:32.088 [info] [agent] Possible deployment type Entrypoint=slides.qmd Type=quarto-static
+2026-04-16 20:56:32.089 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:32.101 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:56:32.101 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:56:32.101 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:32.103 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:56:32.103 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:56:32.103 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:32.284 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:56:32.284 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:56:32.285 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=slides.qmd elapsed_ms=625 status=200 req_size=2 resp_size=862 client_addr=127.0.0.1:53450
+2026-04-16 20:56:32.285 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:56:32.285 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:56:32.285 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=slides.qmd elapsed_ms=623 status=200 req_size=2 resp_size=862 client_addr=127.0.0.1:53451
+2026-04-16 20:56:38.663 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:38.683 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:56:38.684 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:56:38.684 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:56:39.079 [info] [agent] Possible deployment type Entrypoint=slides.qmd Type=quarto-static
+2026-04-16 20:56:39.080 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:39.095 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:56:39.095 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:56:39.095 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:56:39.269 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:56:39.269 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:56:39.270 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=slides.qmd elapsed_ms=607 status=200 req_size=2 resp_size=864 client_addr=127.0.0.1:53454
+2026-04-16 20:59:15.506 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:59:15.525 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:59:15.525 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:59:15.525 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:59:15.939 [info] [agent] Possible deployment type Entrypoint=slides.qmd Type=quarto-static
+2026-04-16 20:59:15.939 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:59:15.953 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:59:15.953 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:59:15.953 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:59:16.134 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:59:16.134 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:59:16.134 [warning] [agent] Error retrieving required R version error=no R version requirement found
+2026-04-16 20:59:16.134 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=slides.qmd elapsed_ms=628 status=200 req_size=2 resp_size=868 client_addr=127.0.0.1:53604
+2026-04-16 20:59:52.118 [info] [agent] Access Log method=GET url=/api/credentials elapsed_ms=106 status=200 req_size=0 resp_size=406 client_addr=127.0.0.1:53643
+2026-04-16 20:59:52.121 [info] Synced 1 credentials to SecretStorage
+2026-04-16 20:59:52.122 [info] Added Connect auth session, name=andrewheiss url=https://connect.posit.cloud
+2026-04-16 20:59:53.288 [info] [agent] Access Log method=GET url=/api/deployments?dir=.&recursive=true elapsed_ms=10 status=200 req_size=0 resp_size=3 client_addr=127.0.0.1:53646
+2026-04-16 20:59:53.289 [info] [agent] Access Log method=GET url=/api/configurations?dir=.&recursive=true elapsed_ms=8 status=200 req_size=0 resp_size=3 client_addr=127.0.0.1:53647
+2026-04-16 20:59:53.291 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:59:53.311 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:59:53.311 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:59:53.311 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:59:53.381 [info] [agent] Access Log method=GET url=/api/credentials elapsed_ms=103 status=200 req_size=0 resp_size=406 client_addr=127.0.0.1:53645
+2026-04-16 20:59:53.383 [info] Synced 1 credentials to SecretStorage
+2026-04-16 20:59:53.497 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:59:53.497 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:59:53.497 [warning] [agent] Error retrieving required R version error=no R version requirement found
+2026-04-16 20:59:53.497 [warning] [agent] Error retrieving Python requires error=no python version requirement found
+2026-04-16 20:59:53.498 [info] [agent] Access Log method=GET url=/api/interpreters?dir=.&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython elapsed_ms=206 status=200 req_size=0 resp_size=357 client_addr=127.0.0.1:53648
+2026-04-16 20:59:54.451 [info] [agent] Access Log method=GET url=/api/deployments?dir=.&recursive=true elapsed_ms=12 status=200 req_size=0 resp_size=3 client_addr=127.0.0.1:53650
+2026-04-16 20:59:54.564 [info] [agent] Access Log method=GET url=/api/credentials elapsed_ms=125 status=200 req_size=0 resp_size=406 client_addr=127.0.0.1:53649
+2026-04-16 20:59:56.239 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:59:56.257 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:59:56.257 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:59:56.258 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 20:59:56.651 [info] [agent] Possible deployment type Entrypoint=_quarto.yml Type=quarto-static
+2026-04-16 20:59:56.651 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:59:56.666 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 20:59:56.666 [info] [agent] Detected R version version=4.5.2
+2026-04-16 20:59:56.666 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 20:59:56.832 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 20:59:56.832 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 20:59:56.832 [warning] [agent] Error retrieving required R version error=no R version requirement found
+2026-04-16 20:59:56.832 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=_quarto.yml elapsed_ms=593 status=200 req_size=2 resp_size=893 client_addr=127.0.0.1:53651
+2026-04-16 21:00:03.139 [info] [agent] Access Log method=GET url=/api/configurations?dir=. elapsed_ms=0 status=200 req_size=0 resp_size=3 client_addr=127.0.0.1:53654
+2026-04-16 21:00:03.149 [info] [agent] Access Log method=PUT url=/api/configurations/PCC%20Quarto%20testing-MU4U?dir=. elapsed_ms=6 status=200 req_size=247 resp_size=501 client_addr=127.0.0.1:53655 source=_quarto.yml validate=true files=[/_site] title=PCC Quarto testing productType=connect_cloud schema=https://cdn.posit.co/publisher/schemas/posit-publishing-schema-v3.json type=html entrypoint=_site/index.html
+2026-04-16 21:00:03.210 [info] [agent] Access Log method=POST url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=4 status=200 req_size=74 resp_size=548 client_addr=127.0.0.1:53656 action=include path=/.posit/publish/PCC Quarto testing-MU4U.toml
+2026-04-16 21:00:03.230 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.237 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.246 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:00:03.246 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:00:03.246 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test/.posit/publish
+2026-04-16 21:00:03.246 [info] [agent] Possible deployment type Entrypoint=PCC Quarto testing-MU4U.toml Type=unknown
+2026-04-16 21:00:03.246 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.252 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:00:03.252 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:00:03.252 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test/.posit/publish
+2026-04-16 21:00:03.252 [info] [agent] Possible deployment type Entrypoint=PCC Quarto testing-MU4U.toml Type=unknown
+2026-04-16 21:00:03.252 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.261 [info] [agent] Access Log method=GET url=/api/configurations?dir=.&recursive=true elapsed_ms=13 status=200 req_size=0 resp_size=550 client_addr=127.0.0.1:53661
+2026-04-16 21:00:03.263 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:00:03.263 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:00:03.263 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.268 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.270 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:00:03.270 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:00:03.271 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.277 [info] [agent] Access Log method=POST url=/api/deployments?dir=. elapsed_ms=47 status=200 req_size=89 resp_size=667 client_addr=127.0.0.1:53659 saveName=deployment-EOS4 account=andrewheiss config=PCC Quarto testing-MU4U
+2026-04-16 21:00:03.285 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:00:03.285 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:00:03.285 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.286 [info] [agent] Access Log method=POST url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=5 status=200 req_size=78 resp_size=599 client_addr=127.0.0.1:53663 action=include path=/.posit/publish/deployments/deployment-EOS4.toml
+2026-04-16 21:00:03.315 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=17 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:53666
+2026-04-16 21:00:03.318 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=21 status=400 req_size=0 resp_size=42 client_addr=127.0.0.1:53664
+2026-04-16 21:00:03.323 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=17 status=400 req_size=0 resp_size=42 client_addr=127.0.0.1:53667
+2026-04-16 21:00:03.325 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=18 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:53669
+2026-04-16 21:00:03.336 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=28 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:53671
+2026-04-16 21:00:03.339 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=29 status=400 req_size=0 resp_size=42 client_addr=127.0.0.1:53672
+2026-04-16 21:00:03.348 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=42 status=200 req_size=0 resp_size=137330 client_addr=127.0.0.1:53668
+2026-04-16 21:00:03.350 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=42 status=200 req_size=0 resp_size=137330 client_addr=127.0.0.1:53670
+2026-04-16 21:00:03.352 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=55 status=200 req_size=0 resp_size=137330 client_addr=127.0.0.1:53665
+2026-04-16 21:00:03.379 [info] [agent] Access Log method=GET url=/api/deployments?dir=.&recursive=true elapsed_ms=17 status=200 req_size=0 resp_size=669 client_addr=127.0.0.1:53676
+2026-04-16 21:00:03.489 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:00:03.489 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/.posit/publish/renv.lock
+2026-04-16 21:00:03.489 [info] [agent] Access Log method=POST url=/api/inspect?dir=.posit%2Fpublish&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=PCC+Quarto+testing-MU4U.toml elapsed_ms=252 status=200 req_size=2 resp_size=490 client_addr=127.0.0.1:53660
+2026-04-16 21:00:03.490 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:00:03.490 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/.posit/publish/renv.lock
+2026-04-16 21:00:03.490 [info] [agent] Access Log method=POST url=/api/inspect?dir=.posit%2Fpublish&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=PCC+Quarto+testing-MU4U.toml elapsed_ms=260 status=200 req_size=2 resp_size=490 client_addr=127.0.0.1:53658
+2026-04-16 21:00:03.513 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:00:03.513 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:00:03.513 [warning] [agent] Error retrieving required R version error=no R version requirement found
+2026-04-16 21:00:03.513 [warning] [agent] Error retrieving Python requires error=no python version requirement found
+2026-04-16 21:00:03.513 [info] [agent] Access Log method=GET url=/api/interpreters?dir=.&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython elapsed_ms=244 status=200 req_size=0 resp_size=357 client_addr=127.0.0.1:53662
+2026-04-16 21:00:03.533 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=11 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:53682
+2026-04-16 21:00:03.534 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=9 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:53685
+2026-04-16 21:00:03.534 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=12 status=400 req_size=0 resp_size=42 client_addr=127.0.0.1:53680
+2026-04-16 21:00:03.536 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=11 status=400 req_size=0 resp_size=42 client_addr=127.0.0.1:53684
+2026-04-16 21:00:03.547 [info] [agent] Access Log method=GET url=/api/configurations?dir=.&recursive=true elapsed_ms=25 status=200 req_size=0 resp_size=601 client_addr=127.0.0.1:53683
+2026-04-16 21:00:03.558 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.569 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=43 status=200 req_size=0 resp_size=137330 client_addr=127.0.0.1:53686
+2026-04-16 21:00:03.577 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=55 status=200 req_size=0 resp_size=137330 client_addr=127.0.0.1:53681
+2026-04-16 21:00:03.583 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:00:03.584 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:00:03.584 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:03.585 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=255 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:53674
+2026-04-16 21:00:03.743 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=206 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:53687
+2026-04-16 21:00:03.763 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:00:03.763 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:00:03.763 [warning] [agent] Error retrieving required R version error=no R version requirement found
+2026-04-16 21:00:03.763 [warning] [agent] Error retrieving Python requires error=no python version requirement found
+2026-04-16 21:00:03.763 [info] [agent] Access Log method=GET url=/api/interpreters?dir=.&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython elapsed_ms=208 status=200 req_size=0 resp_size=357 client_addr=127.0.0.1:53689
+2026-04-16 21:00:03.771 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=232 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:53688
+2026-04-16 21:00:03.779 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=11 status=400 req_size=0 resp_size=42 client_addr=127.0.0.1:53693
+2026-04-16 21:00:03.781 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=439 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:53675
+2026-04-16 21:00:03.781 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=9 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:53695
+2026-04-16 21:00:03.782 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=8 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:53697
+2026-04-16 21:00:03.783 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=11 status=400 req_size=0 resp_size=42 client_addr=127.0.0.1:53696
+2026-04-16 21:00:03.798 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=27 status=200 req_size=0 resp_size=137330 client_addr=127.0.0.1:53694
+2026-04-16 21:00:03.798 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=24 status=200 req_size=0 resp_size=137330 client_addr=127.0.0.1:53698
+2026-04-16 21:00:03.872 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=552 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:53673
+2026-04-16 21:00:03.950 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=165 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:53700
+2026-04-16 21:00:03.973 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=188 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:53699
+2026-04-16 21:00:04.378 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=17 status=200 req_size=0 resp_size=137330 client_addr=127.0.0.1:53704
+2026-04-16 21:00:10.232 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=16 status=200 req_size=0 resp_size=81584 client_addr=127.0.0.1:53706
+2026-04-16 21:00:10.877 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:00:10.901 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:00:10.902 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:00:11.004 [info] [agent] Access Log method=POST url=/api/deployments/deployment-EOS4?dir=.&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython elapsed_ms=127 status=202 req_size=138 resp_size=31 client_addr=127.0.0.1:53707 account=andrewheiss config=PCC Quarto testing-MU4U secrets=map[] insecure=false positron=map[r:map[defaultRepositories:auto]]
+2026-04-16 21:00:11.004 [info] [agent] Publishing from directory localId=ENjQQY6O2ycBwDAc event_op=agent path=/Users/andrew/Desktop/publisher-test localID=ENjQQY6O2ycBwDAc
+2026-04-16 21:00:11.004 [info] [agent] Starting deployment to server localId=ENjQQY6O2ycBwDAc server=https://connect.posit.cloud
+2026-04-16 21:00:11.012 [info] [agent] Local Quarto not in use localId=ENjQQY6O2ycBwDAc event_op=publish/getRPackageDescriptions
+2026-04-16 21:00:11.012 [info] [agent] Local R not in use localId=ENjQQY6O2ycBwDAc event_op=publish/getRPackageDescriptions
+2026-04-16 21:00:11.012 [info] [agent] Local Python not in use localId=ENjQQY6O2ycBwDAc event_op=publish/getRPackageDescriptions
+2026-04-16 21:00:11.012 [info] [agent] Creating new Connect Cloud deployment localId=ENjQQY6O2ycBwDAc event_op=publish/createNewDeployment
+2026-04-16 21:00:11.101 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=7 status=400 req_size=0 resp_size=42 client_addr=127.0.0.1:53708
+2026-04-16 21:00:11.103 [info] [agent] Access Log method=GET url=/api/deployments?dir=.&recursive=true elapsed_ms=8 status=200 req_size=0 resp_size=1163 client_addr=127.0.0.1:53709
+2026-04-16 21:00:11.591 [info] [agent] Created deployment localId=ENjQQY6O2ycBwDAc event_op=publish/createNewDeployment content_id=019d98f3-db50-b4e3-bd30-6ea6e01e46bc
+2026-04-16 21:00:11.591 [info] [agent] Preparing files localId=ENjQQY6O2ycBwDAc event_op=publish/createBundle
+2026-04-16 21:00:11.594 [info] [agent] Creating bundle from directory localId=ENjQQY6O2ycBwDAc event_op=publish/createBundle source_dir=/Users/andrew/Desktop/publisher-test
+2026-04-16 21:00:11.640 [info] [agent] Bundle created localId=ENjQQY6O2ycBwDAc event_op=publish/createBundle files=22 total_bytes=1176751
+2026-04-16 21:00:11.640 [info] [agent] Done preparing files localId=ENjQQY6O2ycBwDAc event_op=publish/createBundle filename=/var/folders/17/g3pw3lvj2h30gwm67tbtx98c0000gn/T/bundle-1085557989.tar.gz
+2026-04-16 21:00:11.640 [info] [agent] Initiating publish of content localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:11.871 [info] [agent] Publish initiated localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:11.871 [info] [agent] Uploading files localId=ENjQQY6O2ycBwDAc event_op=publish/uploadBundle
+2026-04-16 21:00:12.330 [info] [agent] Bundle upload successful localId=ENjQQY6O2ycBwDAc status=201 Created
+2026-04-16 21:00:12.346 [info] [agent] Done uploading files localId=ENjQQY6O2ycBwDAc event_op=publish/uploadBundle bundle_id=019d98f3-db55-ad90-66fa-1ca9b80800cd
+2026-04-16 21:00:12.346 [info] [agent] Getting content logs... localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:12.458 [info] [agent] Access Log method=GET url=/api/deployments?dir=.&recursive=true elapsed_ms=15 status=200 req_size=0 resp_size=2490 client_addr=127.0.0.1:53712
+2026-04-16 21:00:12.668 [error] [agent] invalid character &#39;&lt;&#39; looking for beginning of value method=GET url=/api/deployments/deployment-EOS4/environment?dir=. error=invalid character '<' looking for beginning of value
+2026-04-16 21:00:12.668 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=225 status=500 req_size=0 resp_size=63 client_addr=127.0.0.1:53713
+2026-04-16 21:00:18.341 [info] [agent] successfully subscribed to log channel localId=ENjQQY6O2ycBwDAc
+2026-04-16 21:00:18.341 [info] [agent] Waiting for publish to complete localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent revision_id=019d98f3-db65-2f2a-c170-1c963d67abe1
+2026-04-16 21:00:18.342 [info] [agent] Your publish request with ID 2bc02cbb-1a2f-41af-93f1-3894c1de49f0 is now being processed. localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:18.342 [info] [agent] Loading your source code... localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:18.342 [info] [agent] Installing your code's dependencies into the environment. localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:18.342 [info] [agent] Copying static files... localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:18.342 [info] [agent] Copying static content from /cloud/project/_site to /tmp/vivid-blender/rendered-output-1397870999420718660 localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:18.342 [info] [agent] Static content copied successfully localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:19.673 [info] [agent] Publish completed successfully localId=ENjQQY6O2ycBwDAc event_op=publish/deployContent
+2026-04-16 21:00:19.674 [info] [agent] Deployment information localId=ENjQQY6O2ycBwDAc event_op=agent dashboardURL=https://connect.posit.cloud/andrewheiss/content/019d98f3-db50-b4e3-bd30-6ea6e01e46bc directURL=https://019d98f3-db50-b4e3-bd30-6ea6e01e46bc.share.connect.posit.cloud logsURL=https://connect.posit.cloud/andrewheiss/content/019d98f3-db50-b4e3-bd30-6ea6e01e46bc/history serverURL=https://connect.posit.cloud contentID=019d98f3-db50-b4e3-bd30-6ea6e01e46bc
+2026-04-16 21:00:19.674 [info] [agent] Dashboard URL:  https://connect.posit.cloud/andrewheiss/content/019d98f3-db50-b4e3-bd30-6ea6e01e46bc
+2026-04-16 21:00:19.674 [info] [agent] Direct URL:     https://019d98f3-db50-b4e3-bd30-6ea6e01e46bc.share.connect.posit.cloud
+2026-04-16 21:01:36.974 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:01:36.974 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:01:36.991 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:01:36.992 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:01:36.992 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 21:01:36.992 [info] [agent] Possible deployment type Entrypoint=.gitignore Type=unknown
+2026-04-16 21:01:36.992 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:01:36.993 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:01:36.993 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:01:36.993 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 21:01:36.994 [info] [agent] Possible deployment type Entrypoint=.gitignore Type=unknown
+2026-04-16 21:01:36.994 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:01:37.007 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:01:37.007 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:01:37.007 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:01:37.009 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:01:37.013 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:01:37.013 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:01:37.199 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:01:37.199 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:01:37.199 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=.gitignore elapsed_ms=225 status=200 req_size=2 resp_size=448 client_addr=127.0.0.1:53774
+2026-04-16 21:01:37.200 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:01:37.200 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:01:37.200 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=.gitignore elapsed_ms=226 status=200 req_size=2 resp_size=448 client_addr=127.0.0.1:53775
+2026-04-16 21:01:38.120 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=12 status=200 req_size=0 resp_size=81899 client_addr=127.0.0.1:53776
+2026-04-16 21:02:00.684 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:02:00.706 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:02:00.706 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:02:00.706 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 21:02:00.706 [info] [agent] Possible deployment type Entrypoint=.gitignore Type=unknown
+2026-04-16 21:02:00.707 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:02:00.723 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:02:00.723 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:02:00.723 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:02:00.907 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:02:00.907 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:02:00.907 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=.gitignore elapsed_ms=223 status=200 req_size=2 resp_size=448 client_addr=127.0.0.1:53810
+2026-04-16 21:02:10.856 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:02:10.873 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:02:10.873 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:02:10.873 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 21:02:10.887 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=15 status=200 req_size=0 resp_size=81588 client_addr=127.0.0.1:53818
+2026-04-16 21:02:11.471 [info] [agent] Possible deployment type Entrypoint=_quarto.yml Type=quarto-static
+2026-04-16 21:02:11.471 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:02:11.487 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:02:11.487 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:02:11.487 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:02:11.682 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:02:11.682 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:02:11.682 [warning] [agent] Error retrieving required R version error=no R version requirement found
+2026-04-16 21:02:11.682 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=_quarto.yml elapsed_ms=826 status=200 req_size=2 resp_size=893 client_addr=127.0.0.1:53817
+2026-04-16 21:02:12.626 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=16 status=200 req_size=0 resp_size=81588 client_addr=127.0.0.1:53820
+2026-04-16 21:02:19.266 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=12 status=200 req_size=0 resp_size=93769 client_addr=127.0.0.1:53823
+2026-04-16 21:02:21.474 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=13 status=200 req_size=0 resp_size=98044 client_addr=127.0.0.1:53824
+2026-04-16 21:02:27.958 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=12 status=200 req_size=0 resp_size=102907 client_addr=127.0.0.1:53827
+2026-04-16 21:02:37.828 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=14 status=200 req_size=0 resp_size=105604 client_addr=127.0.0.1:53833
+2026-04-16 21:05:37.309 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=28 status=200 req_size=0 resp_size=106558 client_addr=127.0.0.1:53990
+2026-04-16 21:10:23.847 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=22 status=200 req_size=0 resp_size=106558 client_addr=127.0.0.1:54091
+2026-04-16 21:10:28.223 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:10:28.250 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:10:28.250 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:10:28.250 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 21:10:28.251 [info] [agent] Possible deployment type Entrypoint=.gitignore Type=unknown
+2026-04-16 21:10:28.251 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:10:28.265 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:10:28.265 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:10:28.265 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:10:28.474 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:10:28.474 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:10:28.474 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=.gitignore elapsed_ms=252 status=200 req_size=2 resp_size=448 client_addr=127.0.0.1:54093
+2026-04-16 21:10:31.455 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:10:31.474 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:10:31.475 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:10:31.475 [info] [agent] Detecting deployment type and entrypoint... path=/Users/andrew/Desktop/publisher-test
+2026-04-16 21:10:31.475 [info] [agent] Possible deployment type Entrypoint=.gitignore Type=unknown
+2026-04-16 21:10:31.475 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:10:31.490 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:10:31.490 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:10:31.490 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:10:31.655 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:10:31.655 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:10:31.655 [info] [agent] Access Log method=POST url=/api/inspect?dir=.&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&entrypoint=.gitignore elapsed_ms=199 status=200 req_size=2 resp_size=448 client_addr=127.0.0.1:54097
+2026-04-16 21:10:43.329 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=17 status=200 req_size=0 resp_size=114726 client_addr=127.0.0.1:54106
+2026-04-16 21:10:44.972 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=27 status=200 req_size=0 resp_size=114727 client_addr=127.0.0.1:54108
+2026-04-16 21:12:53.688 [info] [agent] Access Log method=GET url=/api/configurations?dir=.&recursive=true elapsed_ms=10 status=200 req_size=0 resp_size=601 client_addr=127.0.0.1:54180
+2026-04-16 21:12:53.690 [info] [agent] Access Log method=GET url=/api/deployments?dir=.&recursive=true elapsed_ms=11 status=200 req_size=0 resp_size=2490 client_addr=127.0.0.1:54179
+2026-04-16 21:12:53.691 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:12:53.707 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:12:53.707 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:12:53.707 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:12:53.779 [info] [agent] Access Log method=GET url=/api/credentials elapsed_ms=102 status=200 req_size=0 resp_size=406 client_addr=127.0.0.1:54178
+2026-04-16 21:12:53.781 [info] Synced 1 credentials to SecretStorage
+2026-04-16 21:12:53.881 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:12:53.881 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:12:53.881 [warning] [agent] Error retrieving required R version error=no R version requirement found
+2026-04-16 21:12:53.881 [warning] [agent] Error retrieving Python requires error=no python version requirement found
+2026-04-16 21:12:53.881 [info] [agent] Access Log method=GET url=/api/interpreters?dir=.&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython elapsed_ms=190 status=200 req_size=0 resp_size=357 client_addr=127.0.0.1:54181
+2026-04-16 21:12:53.896 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=9 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:54184
+2026-04-16 21:12:53.903 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=12 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:54187
+2026-04-16 21:12:53.918 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=29 status=200 req_size=0 resp_size=114727 client_addr=127.0.0.1:54183
+2026-04-16 21:12:53.918 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=27 status=200 req_size=0 resp_size=114727 client_addr=127.0.0.1:54185
+2026-04-16 21:12:54.161 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=260 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:54188
+2026-04-16 21:12:54.222 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=315 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:54189
+2026-04-16 21:12:54.260 [error] [agent] invalid character &#39;&lt;&#39; looking for beginning of value method=GET url=/api/deployments/deployment-EOS4/environment?dir=. error=invalid character '<' looking for beginning of value
+2026-04-16 21:12:54.260 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=373 status=500 req_size=0 resp_size=63 client_addr=127.0.0.1:54182
+2026-04-16 21:12:54.471 [error] [agent] invalid character &#39;&lt;&#39; looking for beginning of value method=GET url=/api/deployments/deployment-EOS4/environment?dir=. error=invalid character '<' looking for beginning of value
+2026-04-16 21:12:54.471 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=580 status=500 req_size=0 resp_size=63 client_addr=127.0.0.1:54186
+2026-04-16 21:13:07.227 [info] [agent] Access Log method=GET url=/api/configurations?dir=.&recursive=true elapsed_ms=9 status=200 req_size=0 resp_size=601 client_addr=127.0.0.1:54249
+2026-04-16 21:13:07.228 [info] [agent] Access Log method=GET url=/api/deployments?dir=.&recursive=true elapsed_ms=12 status=200 req_size=0 resp_size=2490 client_addr=127.0.0.1:54247
+2026-04-16 21:13:07.230 [info] [agent] Getting R version r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:13:07.248 [info] [agent] Parsing line for R version l=R version 4.5.2 (2025-10-31) -- \
+2026-04-16 21:13:07.248 [info] [agent] Detected R version version=4.5.2
+2026-04-16 21:13:07.248 [info] [agent] Getting renv lockfile path from R executable r=/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/bin/R
+2026-04-16 21:13:07.321 [info] [agent] Access Log method=GET url=/api/credentials elapsed_ms=106 status=200 req_size=0 resp_size=406 client_addr=127.0.0.1:54248
+2026-04-16 21:13:07.323 [info] Synced 1 credentials to SecretStorage
+2026-04-16 21:13:07.420 [info] [agent] Parsing line for renv::path output output=[1] \
+2026-04-16 21:13:07.421 [info] [agent] renv::paths$lockfile returned lockfile path path=/Users/andrew/Desktop/publisher-test/renv.lock
+2026-04-16 21:13:07.421 [warning] [agent] Error retrieving required R version error=no R version requirement found
+2026-04-16 21:13:07.421 [warning] [agent] Error retrieving Python requires error=no python version requirement found
+2026-04-16 21:13:07.421 [info] [agent] Access Log method=GET url=/api/interpreters?dir=.&r=%2FLibrary%2FFrameworks%2FR.framework%2FVersions%2F4.5-arm64%2FResources%2Fbin%2FR&python=~%2F.local%2Fshare%2Fuv%2Fpython%2Fcpython-3.10.16-macos-aarch64-none%2Fbin%2Fpython elapsed_ms=190 status=200 req_size=0 resp_size=357 client_addr=127.0.0.1:54250
+2026-04-16 21:13:07.433 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=7 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:54253
+2026-04-16 21:13:07.448 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/integration-requests?dir=. elapsed_ms=9 status=200 req_size=0 resp_size=5 client_addr=127.0.0.1:54257
+2026-04-16 21:13:07.453 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=27 status=200 req_size=0 resp_size=114727 client_addr=127.0.0.1:54252
+2026-04-16 21:13:07.460 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=22 status=200 req_size=0 resp_size=114727 client_addr=127.0.0.1:54254
+2026-04-16 21:13:07.640 [error] [agent] invalid character &#39;&lt;&#39; looking for beginning of value method=GET url=/api/deployments/deployment-EOS4/environment?dir=. error=invalid character '<' looking for beginning of value
+2026-04-16 21:13:07.640 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=202 status=500 req_size=0 resp_size=63 client_addr=127.0.0.1:54255
+2026-04-16 21:13:07.640 [error] [agent] invalid character &#39;&lt;&#39; looking for beginning of value method=GET url=/api/deployments/deployment-EOS4/environment?dir=. error=invalid character '<' looking for beginning of value
+2026-04-16 21:13:07.640 [info] [agent] Access Log method=GET url=/api/deployments/deployment-EOS4/environment?dir=. elapsed_ms=214 status=500 req_size=0 resp_size=63 client_addr=127.0.0.1:54251
+2026-04-16 21:13:07.653 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=213 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:54256
+2026-04-16 21:13:07.692 [info] [agent] Access Log method=GET url=/api/accounts/andrewheiss/integrations elapsed_ms=236 status=500 req_size=0 resp_size=70 client_addr=127.0.0.1:54258
+2026-04-16 21:14:49.732 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=33 status=200 req_size=0 resp_size=114727 client_addr=127.0.0.1:54324
+2026-04-16 21:15:14.689 [info] [agent] Access Log method=GET url=/api/configurations/PCC%20Quarto%20testing-MU4U/files?dir=. elapsed_ms=21 status=200 req_size=0 resp_size=116035 client_addr=127.0.0.1:54330
