@@ -1,0 +1,14 @@
+---
+title: "Slides"
+
+format:
+  revealjs: default
+---
+
+## Slides
+
+Here's a chunk of code in a slideshow
+
+```{r}
+1 + 1
+```

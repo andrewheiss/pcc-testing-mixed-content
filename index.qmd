@@ -1,0 +1,9 @@
+---
+title: "Testing"
+---
+
+This is a regular page in a Quarto website. Here's some code:
+
+```{r}
+1 + 1
+```
