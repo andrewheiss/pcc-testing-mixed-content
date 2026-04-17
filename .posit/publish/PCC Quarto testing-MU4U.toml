@@ -1,0 +1,12 @@
+product_type = 'connect_cloud'
+'$schema' = 'https://cdn.posit.co/publisher/schemas/posit-publishing-schema-v3.json'
+type = 'html'
+entrypoint = '_site/index.html'
+source = '_quarto.yml'
+validate = true
+files = [
+  '/_site',
+  '/.posit/publish/PCC Quarto testing-MU4U.toml',
+  '/.posit/publish/deployments/deployment-EOS4.toml'
+]
+title = 'PCC Quarto testing'
